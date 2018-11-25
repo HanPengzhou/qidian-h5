@@ -10,7 +10,7 @@ exports.assetsPath = _path => {
     : config.dev.assetsSubDirectory
   return path.posix.join(assetsSubDirectory, _path)
 }
-//test
+//淡定
 exports.cssLoaders = options => {
   options = options || {}
   // generate loader string to be used with extract text plugin
